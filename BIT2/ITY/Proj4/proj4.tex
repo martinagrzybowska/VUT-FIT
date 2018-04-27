@@ -1,0 +1,57 @@
+\documentclass[a4paper,11pt, titlepage]{article}
+\usepackage[left=2cm, text={17cm, 24cm}, top=3cm]{geometry}
+\usepackage{times}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\bibliographystyle{czplain}
+\newcommand{\myuv}[1]{\quotedblbase #1\textquotedblleft}
+
+\pagestyle{empty}
+\begin{document}
+
+%~^~%~^~%~^~%~%~^~%~%~^~%~% TITLE PAGE ~^~%~%~^~%~%~^~%~%~^~%~%~^~
+	
+	\begin{titlepage}
+		\begin{center}
+			{\Huge\textsc{Vysoké učení technické v~Brně}}\\
+			\vspace{+0.8em}
+			{\huge\textsc{Fakulta informačních technologií}}\\
+			\bigskip
+			\vspace{\stretch{0.382}} 
+			\LARGE{Typografie a~publikování\,--\,4.projekt}\\
+			\vspace{-0.25em}
+			\Huge{Bibliografické citace}
+			\vspace{\stretch{0.618}}
+		\end{center}
+		{\Large \today \hfill Martina Grzybowská}
+	\end{titlepage}
+
+%~^~%~^~%~^~%~%~^~%~%~^~%~% END OF TITLE PAGE ~^~%~%~^~%~%~^~%~%~^~%~%~^~
+\newpage
+\pagestyle{plain}
+
+\section{Čo je to typografia}
+Typografia je forma jazyka \cite{Lupton:Thinking_with_type}. Je tým, čo dáva textu vizuálnu podobu. Vhodným výberom písma môžeme u čitateľa dosiahnuť neutrálny efekt alebo vzbudiť jeho emócie: navodiť napríklad umelecký, politický či filozofický dojem \cite{Ambrose:Typografie}. Tvary a~farby písmen možno využiť na zapôsobenie na istú cieľovú skupinu. Napríklad prírodnej poéme najlepšie pristane ľahká kurzíva a nič nepodporí politické prehlásenie ráznejšie než ťažká egyptienka. Písmo s~oblými tvarmi a~menším duktusom zobrazené v~jemných farbách vyjadrí ženskejší štýl. Mužne zas pôsobí hranatejšie písmo s~hrubšími ťahmi a~tmavými, sýtejšími farbami \cite{Saltz:Zaklady_typografie}.
+
+\section{História typografie}
+História západnej typografie sa datuje od vynálezu kníhtlače v~Európe. Teda okolo roku 1450, kedy v~Mohuči Johannes Gutenberg uviedol do
+prevádzky prvý tlačiarenský lis využívajúci pohyblivé litery. Ďalších niekoľko storočí dochádzalo predovšetkým k skvalitňovaniu tlačiarenských
+strojov vývojom nových písiem. Ďalší výrazný posun v~tlači je zaznamenaný v 19. storočí, kedy prichádza mnoho nových technológií ako 
+litografia, farebná tlač, \myuv{rotačka} a~ofsetová tlač \cite{Jirasek:bakalarka}.
+
+\subsection{Etymológia názvu} 
+Slovo typografia je odvodené z~gréckeho \emph{typós} (znaky) a~ \emph{graphein} (písať). Znaky boli za rozkvetu Rímskej ríše tesané do kameňa. Slovo \emph{typos} má aj~tento význam \cite{Olsak:Typografie_co_to_je}.
+
+\section{Pravidlá typografie}
+Pre tvorbu typografických diel sa vyvinulo mnoho pravidiel. K~tým základným patrí optický stred, zlatý rez, normalizované formáty 
+a~iné \cite{Culakova:bakalarka}. Aj~keď poprední dizajnéri často tvrdia, že pravidlá tvorby existujú preto, aby sa porušovali, jedno pravidlo by malo zostať 
+zachované vždy - je ním čitateľnosť \cite{Samara:Graficky_design}. Dobrá typografia totiž nie je vidieť, je nerušivým nástrojom k odovzdaniu obsahu informácie. Čitateľ nesmie byť vyčerpávaný ani rušený \cite{Olsak:Typografie_co_to_je}. Základnou chybou sádzača\,--\,amatéra býva snaha dostať toho na stránku čo najviac bez ohľadu na čitateľnosť. Je dosť obtiažne vyjadriť správny postup vedúci k optimálnej sadzbe kvantitatívne \cite{Vesely:Exkurze_do_taju}. Nepísaná múdrosť profesionálnych technických redaktorov (upravovateľov kníh a~iných tlačových materiálov) o\-pie\-ra\-jú\-ca sa o~štúdiu čitateľnosti hovorí, že tlačený text má obsahovať v~riadku priemerne desať alebo menej slov \cite{Durst:Vytvareni_rejstriku}.
+
+\section{Latex}
+{\LaTeX} je vysoko kvalitný typografický systém určený pre profesionálne a~poloprofesionálne sádzanie dokumentov \cite{Martinek:Latexove_speciality}. Bol vyvinutý v roku 1985 Leslie Lamportom. {\LaTeX} využíva ako formátovací jazyk sádzací systém {\TeX} - 
+značkovací jazyk vyvinutý Donaldom Knuthom v 70. rokoch. Je založený na myšlenienke, že autor dokumentu by sa mal starať len o text článku, zatiaľ čo o~formátovánie sa postarajú vývojári dokumentu \cite{Mittelbach:An_Introduction_to_Latex}. Dnes je už {\TeX} považovaný za ukončený projekt vzhľadom na to, že sa jeho tvorca rozhodol ukončiť ďalší vývoj, dôsledkom čoho sa už žiadne iné programy nesmú nazývať \TeX om \cite{Syropoulos:Zbornik}.
+
+\newpage
+\bibliography{literatura}
+\end{document}
