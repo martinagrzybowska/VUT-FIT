@@ -1,0 +1,17 @@
+IRC bot so SYSLOG logovaním.
+Autor - Martina Grzybowská, xgrzyb00
+
+Príklady použitia:
+./isabot irc.freenode.net #ISAChannel -l “tcp,udp"
+./isabot -h
+./isabot irc.freenode.net “#ISAChannel,#isa” -l “tcp,udp" -s 127.0.0.1
+
+Zoznam odovzdaných súborov:
+isabot.h
+isabot.cpp
+commands.cpp
+arguments.cpp
+networking.cpp
+Makefile
+manual.pdf
+README

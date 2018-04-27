@@ -1,2 +1,30 @@
 # VUT-FIT
 University projects
+
+BIT1
+IEL 10.5/12
+IUS 29/30
+INC 20/20
+
+BIT2
+IOS Proj1 15/15
+IAL Proj1 10/10
+IAL Proj2 10/10
+
+BI
+INP Proj1 10/10
+INP Proj2 23/23
+
+IDS 30/30
+IPK Proj1 10/10
+IPK Proj2 20/20
+
+IPP Proj1 11/10
+
+IZG 18/18
+
+IJA 90/90
+
+IMS 20/20
+IMP 14/14
+ISA 20/20

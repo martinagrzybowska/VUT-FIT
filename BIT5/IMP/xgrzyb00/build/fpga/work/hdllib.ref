@@ -1,0 +1,26 @@
+EN keyboard_controller_high NULL C:/FitkitSVN/fpga/ctrls/keyboard/keyboard_ctrl_high.vhd sub00/vhpl18 1511479232
+EN spi_reg NULL C:/FitkitSVN/fpga/ctrls/spi/spi_reg.vhd sub00/vhpl22 1511479236
+PB math_pack math_pack C:/FitkitSVN/fpga/units/math/math_pack.vhd sub00/vhpl04 1511479218
+PH spi_cfg NULL C:/FitkitSVN/fpga/ctrls/spi/spi_reg.vhd sub00/vhpl21 1511479235
+AR spi_adc basic C:/FitkitSVN/fpga/ctrls/spi/spi_adc.vhd sub00/vhpl25 1511479239
+AR spi_ctrl arch_spi_ctrl2 C:/FitkitSVN/fpga/ctrls/spi/spi_ctrl.vhd sub00/vhpl09 1511479223
+AR spi_adc autoincrement C:/FitkitSVN/fpga/ctrls/spi/spi_adc_autoincr.vhd sub00/vhpl24 1511479238
+AR keyboard_controller arch_keyboard C:/FitkitSVN/fpga/ctrls/keyboard/keyboard_ctrl.vhd sub00/vhpl14 1511479228
+EN clkgen NULL C:/FitkitSVN/fpga/units/clkgen/clkgen.vhd sub00/vhpl06 1511479220
+AR lcd_raw_controller base C:/FitkitSVN/fpga/ctrls/lcd/lcd_raw.vhd sub00/vhpl16 1511479230
+EN keyboard_controller NULL C:/FitkitSVN/fpga/ctrls/keyboard/keyboard_ctrl.vhd sub00/vhpl13 1511479227
+PH fpga_cfg NULL "C:/FitkitSVN/apps/xgrzyb00/Svetelné noviny/build/fpga/kblcd_config.vhd" sub00/vhpl11 1511479225
+AR tlv_bare_ifc main "C:/FitkitSVN/apps/xgrzyb00/Svetelné noviny/fpga/top_level.vhd" sub00/vhpl17 1511479231
+AR fpga arch_bare_ifc C:/FitkitSVN/fpga/chips/architecture_bare/arch_bare_ifc.vhd sub00/vhpl20 1511479234
+EN tlv_bare_ifc NULL C:/FitkitSVN/fpga/chips/architecture_bare/tlv_bare_ifc.vhd sub00/vhpl10 1511479224
+EN fpga NULL C:/FitkitSVN/fpga/chips/fpga_xc3s50.vhd sub00/vhpl05 1511479219
+PH clkgen_cfg NULL C:/FitkitSVN/fpga/units/clkgen/clkgen_config.vhd sub00/vhpl00 1511479214
+AR keyboard_controller_high behavioral C:/FitkitSVN/fpga/ctrls/keyboard/keyboard_ctrl_high.vhd sub00/vhpl19 1511479233
+EN lcd_raw_controller NULL C:/FitkitSVN/fpga/ctrls/lcd/lcd_raw.vhd sub00/vhpl15 1511479229
+EN spi_adc NULL C:/FitkitSVN/fpga/ctrls/spi/spi_adc_entity.vhd sub00/vhpl02 1511479216
+PB fpga_cfg fpga_cfg "C:/FitkitSVN/apps/xgrzyb00/Svetelné noviny/build/fpga/kblcd_config.vhd" sub00/vhpl12 1511479226
+PH math_pack NULL C:/FitkitSVN/fpga/units/math/math_pack.vhd sub00/vhpl03 1511479217
+AR spi_reg beh C:/FitkitSVN/fpga/ctrls/spi/spi_reg.vhd sub00/vhpl23 1511479237
+EN spi_ctrl NULL C:/FitkitSVN/fpga/ctrls/spi/spi_ctrl.vhd sub00/vhpl08 1511479222
+PB clkgen_cfg clkgen_cfg C:/FitkitSVN/fpga/units/clkgen/clkgen_config.vhd sub00/vhpl01 1511479215
+AR clkgen behavioral C:/FitkitSVN/fpga/units/clkgen/clkgen.vhd sub00/vhpl07 1511479221
